@@ -12,9 +12,9 @@ It's a calculator web application built with React
 - ES Modules
 - Linters
 
-## Live Demo
+## See Project
 
-[Live Demo Link]()
+[Math Magicians](https://idrissa-omar-math-magicians.netlify.app/)
 
 
 ## Getting Started
