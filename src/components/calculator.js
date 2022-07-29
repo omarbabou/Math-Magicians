@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './btn';
 import Interact from './interact';
+import './calculator.css';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <article className="calculator">
-        <Interact cName="screen" result="0" />
+        <Interact cName="interact" result="0" />
         <Button bgColor="btn-gray" btnRef="AC" />
         <Button bgColor="btn-gray" btnRef="+/-" />
         <Button bgColor="btn-gray" btnRef="%" />
