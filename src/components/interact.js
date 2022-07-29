@@ -8,16 +8,27 @@ class Interact extends React.Component {
   }
 
   render() {
-    const { cName, result } = this.props;
+    const { total, operation, next } = this.props;
     return (
-      <div className={cName}>{result}</div>
+      <div className="interact">
+        {total}
+        {operation}
+        {next}
+      </div>
     );
   }
 }
 
 Interact.propTypes = {
-  cName: PropTypes.string.isRequired,
-  result: PropTypes.number.isRequired,
+  next: PropTypes.string,
+  total: PropTypes.number,
+  operation: PropTypes.number,
+};
+
+Interact.defaultProps = {
+  next: null,
+  total: 0,
+  operation: null,
 };
 
 export default Interact;
