@@ -7,6 +7,7 @@ h1 {
   header {
     width: 85vw;
     margin: 0 auto;
+    margin-top: -150px;
     display: flex;
     align-items: center;
   }

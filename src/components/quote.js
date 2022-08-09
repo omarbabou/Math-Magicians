@@ -1,4 +1,4 @@
-import './quotes.css';
+import './quote.css';
 import React from 'react';
 import Header from './header';
 
