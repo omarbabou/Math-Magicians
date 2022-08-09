@@ -1,6 +1,6 @@
-import './Home.css';
+import './home.css';
 import React from 'react';
-import Header from './Header';
+import Header from './header';
 
 class Home extends React.Component {
   constructor(props) {
