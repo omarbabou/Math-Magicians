@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <>
         <Header />
-        <main className="home">
+        <main className="home-page">
           <h2>Welcome to our page!</h2>
           <p>
             Anim esse duis proident dolor. Eiusmod enim cupidatat nostrud quis et minim
