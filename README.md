@@ -9,7 +9,7 @@ It's a calculator web application built with React
 
 ## Screenshot
 
-![Screenshot](./Screen%20Shot%202022-07-30%20at%2020.40.22.png)
+![Screenshot](./Screen%20Shot%202022-08-10%20at%2023.08.56.png)
 
 ## Built With
 
